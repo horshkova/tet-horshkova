@@ -215,15 +215,25 @@ form {
     background-color: #9dd898;
 }
 
-.topbutton {
-    border: 3px solid #0d390a;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    border-radius: 10px;
-    margin: 4px 2px;
+/*.topbutton {*/
+/*    border: 3px solid #0d390a;*/
+/*    color: white;*/
+/*    padding: 16px 32px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    font-size: 25px;*/
+/*    border-radius: 10px;*/
+/*    margin: 4px 2px;*/
+/*    cursor: pointer;*/
+/*    background-color: green;*/
+/*}*/
+
+body nav i {
+    color: green;
+    font-size: 48px;
     cursor: pointer;
-    background-color: green;
+}
+
+i:hover {
+    color: grey;
 }
